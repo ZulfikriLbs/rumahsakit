@@ -1,0 +1,102 @@
+.modal-title{
+    position: absolute;
+}
+
+[class*='sidebar-dark-'] {
+    background-color: #321279;
+}
+
+.navbar-purple {
+    background-color: #321279;
+    
+}
+
+.navbar-purple a{
+    color: #ffffff;
+    
+}
+
+.has-error .form-control {
+    border-color: #ec4561;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.has-error label {
+    color: #ec4561;
+}
+
+.help-block-error{
+    color: #ec4561;
+}
+
+.login-page{
+    background: #321279;
+}
+
+.login-logo a, .register-logo a {
+    color: #ffffff;
+}
+
+.video-belajar{
+    height: 400px;
+    width: 100%;
+}
+.user-block .soal{
+    margin-left: 50px;
+    margin-top: 7px;
+}
+.jawaban{
+    margin-left: 10px;
+}
+
+.jawaban label.benar{
+    color: green;
+    font-weight: bold;
+}
+
+.jawaban label.salah{
+    color: red;
+    font-weight: bold;
+}
+.img-soal{
+    margin-top: 7px;
+    margin-bottom: 15px;
+    float: left;
+}
+.img-soal img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.pembahasan p{
+    position: relative;
+    clear: both;
+    font-weight: lighter;
+}
+
+.pembahasan h6{
+    font-weight: bold;
+    color: #321279;
+}
+.pembahasan{
+    border: 1px solid #ccc!important;
+    border-radius: 16px;
+    padding: 1.2em;
+    margin-bottom: 15px;
+}
+.petunjuk{
+    background-color: #f1f3f5;
+    color: #000000;
+}
+.petunjuk ol{
+    font-weight: lighter;
+    padding-left: 5px;
+}
+.petunjuk li{
+    text-align: justify;
+}
+
+.user-block .username{
+    color: #007bff;
+}

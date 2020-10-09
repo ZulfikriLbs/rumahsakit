@@ -1,0 +1,39 @@
+.modal-title{
+    position: absolute;
+}
+
+[class*='sidebar-dark-'] {
+    background-color: #321279;
+}
+
+.has-error .form-control {
+    border-color: #ec4561;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.has-error label {
+    color: #ec4561;
+}
+
+.help-block-error{
+    color: #ec4561;
+}
+
+.login-page{
+    background: #321279;
+}
+
+.login-logo a, .register-logo a {
+    color: #ffffff;
+}
+
+.preview-math {
+    border: 1px solid #ccc!important;
+    border-radius: 16px;
+    background-color: white;
+    margin-bottom: 1em;
+    padding: 3px 5px;
+    line-height: calc(1em + 1vmin);
+
+}

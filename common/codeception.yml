@@ -1,0 +1,19 @@
+namespace: common\tests
+actor_suffix: Tester
+paths:
+    tests: tests
+    output: tests/_output
+    data: tests/_data
+    support: tests/_support
+bootstrap: _bootstrap.php
+coverage: 
+    enabled: true
+    include: 
+        - /models/LoginForm.php
+settings:
+    colors: true
+    memory_limit: 1024M
+modules:
+    config:
+        Yii2:
+            configFile: 'config/codeception-local.php'
