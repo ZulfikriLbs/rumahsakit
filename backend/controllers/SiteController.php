@@ -97,9 +97,9 @@ class SiteController extends Controller
      */
     public function actionLogout()
     {
-        $user = \common\models\User::findOne(['id' => Yii::$app->user->identity->id]);
-        $user->online = 0;
-        $user->save();
+        // $user = \common\models\User::findOne(['id' => Yii::$app->user->identity->id]);
+        // $user->online = 0;
+        // $user->save();
         Yii::$app->user->logout();
 
         return $this->goHome();
